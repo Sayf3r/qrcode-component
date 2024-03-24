@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    font-size: 62.5%;
+    color: black;
+    background: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-container {
+    width: 375px;
+    margin: auto;
+    padding: 1.2rem;
+    background: white;
+    border-radius: 20px;
+}
+
+.block-qrcode {
+    margin-bottom: 1.5rem;
+}
+
+.block-qrcode img {
+    border-radius: 10px;
+}
+
+.block-text {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1.5rem;
+    padding: 0 5px;
+}
+
+.text {
+    font-size: 1.1rem;
+    color: hsl(220, 15%, 55%);
+    padding: 0 13px;
+    margin-bottom: 1.5rem;
+}
