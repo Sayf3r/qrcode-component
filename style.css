@@ -20,7 +20,7 @@ img {
 }
 
 .main-container {
-    width: 375px;
+    width: 320px;
     margin: auto;
     padding: 1.2rem;
     background: white;
@@ -40,7 +40,7 @@ img {
 }
 
 .title {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: hsl(218, 44%, 22%);
     margin-bottom: 1.5rem;
@@ -48,7 +48,7 @@ img {
 }
 
 .text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: hsl(220, 15%, 55%);
     padding: 0 13px;
     margin-bottom: 1.5rem;
